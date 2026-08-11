@@ -22,7 +22,8 @@ This project is divided into four core tasks that handle the complete lifecycle 
 *   **Purpose:** The core engine of the application.
 *   **Functionality:** 
     *   Identifies unique words within the text.
-    *   Calculates the exact frequency of each word using efficient data structures (e.g., `HashMap`).
+    *   Calculates the exact frequency of each word using efficient data structures
+    *   (e.g., `HashMap`).
 
 ### 4. Advanced Statistics
 *   **Purpose:** Provides deeper insights into the analyzed text.
@@ -34,6 +35,7 @@ This project is divided into four core tasks that handle the complete lifecycle 
 ## Tech Stack
 *   **Language:** Java (JDK 11 or higher)
 *   **Tools:** Standard Java Collections API, File I/O.
+*   
 
 ## Installation & Usage
 
@@ -52,3 +54,5 @@ This project is divided into four core tasks that handle the complete lifecycle 
 
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
