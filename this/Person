@@ -1,0 +1,32 @@
+public class Person {
+    private String name;
+    private int age;
+    private String city;
+
+    // Конструктор с параметрами, использующий ключевое слово 'this'
+    public Person(String name, int age, String city) {
+        this.name = name;
+        this.age = age;
+        this.city = city;
+    }
+
+    // Метод getName(), который возвращает this.name
+    public String getName() {
+        return this.name;
+    }
+
+    // Метод getAge(), который возвращает this.age
+    public int getAge() {
+        return this.age;
+    }
+
+    // Метод getCity(), который возвращает this.city
+    public String getCity() {
+        return this.city;
+    }
+
+    // Метод getDescription(), который возвращает форматированную строку
+    public String getDescription() {
+        return this.name + ", age " + this.age + ", from " + this.city;
+    }
+}
