@@ -1,0 +1,1 @@
+Создай класс Book (String), Приватные fields: title, authorpages (int)constructor, который takes все три значения и присваивает их с помощью thisGetter method для каждого field, возвращающий Метод getSummary()"<title> by <author> (<pages> pages)"
