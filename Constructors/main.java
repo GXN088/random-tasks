@@ -29,3 +29,4 @@ public class AsciiCharSequence implements java.lang.CharSequence {
         return new String(content);
     }
 }
+//дополнительно 
