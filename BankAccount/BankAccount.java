@@ -1,16 +1,16 @@
 public class BankAccount {
-    // Приватные поля класса
+    //Приватные поля класса
     private final String accountNumber;
     private String ownerName;
     private double balance = 0.0;
     
-    // Конструктор
+    //Конструктор
     public BankAccount(String accountNumber, String ownerName) {
         this.accountNumber = accountNumber;
         this.ownerName = ownerName;
     }
     
-    // Геттеры
+    //Геттеры
     public String getAccountNumber() {
         return accountNumber;
     }
@@ -23,7 +23,7 @@ public class BankAccount {
         return balance;
     }
     
-    // Метод для пополнения баланса
+    //Метод для пополнения баланса
     public boolean deposit(double amount) {
         if (amount > 0) {
             this.balance += amount;
@@ -32,7 +32,7 @@ public class BankAccount {
         return false;
     }
     
-    // Метод для снятия средств
+    //Метод для снятия средств
     public boolean withdraw(double amount) {
         if (amount > 0 && this.balance >= amount) {
             this.balance -= amount;
@@ -41,7 +41,7 @@ public class BankAccount {
         return false;
     }
     
-    // Сводка по счету
+    //Сводка по счету
     public String getAccountSummary() {
         return String.format("Account %s | Owner: %s | Balance: $%s", 
                 this.accountNumber, 
